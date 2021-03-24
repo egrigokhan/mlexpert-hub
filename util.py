@@ -1,3 +1,5 @@
+import os
+
 # Copied from tools/shared/module_loader to be included in torch package
 def import_module(name, path):
     import importlib.util
