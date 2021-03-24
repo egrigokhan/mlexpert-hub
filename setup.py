@@ -21,15 +21,15 @@ setup_args = dict(
 install_requires = [
     'torch',
     'tqdm',
-    'errno'
-    'hashlib'
-    'os'
-    're'
-    'shutil'
-    'sys'
-    'tempfile'
-    'warnings'
-    'zipfile'
+    'errno',
+    'hashlib',
+    'os',
+    're',
+    'shutil',
+    'sys',
+    'tempfile',
+    'warnings',
+    'zipfile',
     'urllib'
 ]
 
