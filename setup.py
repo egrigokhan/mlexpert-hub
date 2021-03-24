@@ -4,7 +4,7 @@ with open('README.md') as readme_file:
     README = readme_file.read()
 
 setup_args = dict(
-    name='mlehub',
+    name='mlexpert-hub',
     version='0.0',
     description='ML Hub for 🤖 MLExpert',
     long_description_content_type="text/markdown",
@@ -14,13 +14,23 @@ setup_args = dict(
     author='Gokhan Egri',
     author_email='gegri@g.harvard.edu',
     keywords=['ML', "Pytorch"],
-    url='https://github.com/egrigokhan/mlexpert-hub',
+    url='https://github.com/ncthuc/elastictools',
     download_url='https://pypi.org/project/elastictools/'
 )
 
 install_requires = [
     'torch',
-    'tqdm'
+    'tqdm',
+    'errno'
+    'hashlib'
+    'os'
+    're'
+    'shutil'
+    'sys'
+    'tempfile'
+    'warnings'
+    'zipfile'
+    'urllib'
 ]
 
 if __name__ == '__main__':
