@@ -18,19 +18,5 @@ setup_args = dict(
     download_url='https://pypi.org/project/elastictools/'
 )
 
-install_requires = [
-    'torch',
-    'tqdm',
-    'hashlib',
-    'os',
-    're',
-    'shutil',
-    'sys',
-    'tempfile',
-    'warnings',
-    'zipfile',
-    'urllib'
-]
-
 if __name__ == '__main__':
     setup(**setup_args, install_requires=install_requires)
