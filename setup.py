@@ -4,7 +4,7 @@ with open('README.md') as readme_file:
     README = readme_file.read()
 
 setup_args = dict(
-    name='mlexpert-hub',
+    name='mlehub',
     version='0.0',
     description='ML Hub for 🤖 MLExpert',
     long_description_content_type="text/markdown",
