@@ -1,5 +1,3 @@
-import os
-
 # Copied from tools/shared/module_loader to be included in torch package
 def import_module(name, path):
     import importlib.util
@@ -11,6 +9,7 @@ def import_module(name, path):
     return module
 
 def _remove_if_exists(path):
+    import os
     if os.path.exists(path):
         if os.path.isfile(path):
             os.remove(path)
