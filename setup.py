@@ -14,7 +14,7 @@ setup_args = dict(
     author='Gokhan Egri',
     author_email='gegri@g.harvard.edu',
     keywords=['ML', "Pytorch"],
-    url='https://github.com/ncthuc/elastictools',
+    url='https://github.com/egrigokhan/mlexpert-hub',
     download_url='https://pypi.org/project/elastictools/'
 )
 
