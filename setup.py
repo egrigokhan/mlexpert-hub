@@ -20,17 +20,7 @@ setup_args = dict(
 
 install_requires = [
     'torch',
-    'tqdm',
-    'errno'
-    'hashlib'
-    'os'
-    're'
-    'shutil'
-    'sys'
-    'tempfile'
-    'warnings'
-    'zipfile'
-    'urllib'
+    'tqdm'
 ]
 
 if __name__ == '__main__':
